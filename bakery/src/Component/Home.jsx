@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from  '../assets/img/logo.png'
+import logo from '../assets/img/logo.png'
 import img1 from "../assets/img/carousel-1.jpg";
 import img2 from "../assets/img/carousel-2.jpg";
 import about1 from "../assets/img/about-1.jpg";
@@ -33,13 +33,13 @@ function Home() {
           className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0 px-lg-5 wow fadeIn"
           data-wow-delay="0.1s"
         >
-         <div className="d-flex">
-         <img src={logo} className="img-fluid logo" alt="" />
-         <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
-            <h1 className="text-warning  m-3">Baker</h1>
-           
-          </a>
-         </div>
+          <div className="d-flex">
+            <img src={logo} className="img-fluid logo" alt="" />
+            <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
+              <h1 className="text-warning  m-3"></h1>
+
+            </a>
+          </div>
           <button
             type="button"
             className="navbar-toggler me-4"
@@ -62,7 +62,7 @@ function Home() {
               <a href="#product" className="nav-item nav-link">
                 Products
               </a>
-              <div className="nav-item dropdown">
+              {/* <div className="nav-item dropdown">
                 <a
                   href="#"
                   className="nav-link dropdown-toggle"
@@ -81,7 +81,7 @@ function Home() {
                     404 Page
                   </a>
                 </div>
-              </div>
+              </div> */}
               <a href="#footer" className="nav-item nav-link">
                 Contact
               </a>
@@ -296,11 +296,11 @@ function Home() {
                       <div className="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div className="text-center p-4">
                           <div className="d-inline-block border border-primary rounded-pill px-3 mb-3">
-                            $11 - $99
+                            ₹120
                           </div>
                           <h3 className="mb-3">Cake</h3>
                           <span>
-                          Decadent cakes for every occasion, baked fresh with love at Delightful Desserts Bakery.
+                            Decadent cakes for every occasion, baked fresh with love at Delightful Desserts Bakery.
                           </span>
                         </div>
                         <div className="position-relative mt-auto">
@@ -328,12 +328,12 @@ function Home() {
                       <div className="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div className="text-center p-4">
                           <div className="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
-                            $11 - $99
+                            ₹180
                           </div>
                           <h3 className="mb-3">Bread</h3>
                           <span>
-                          Artisanal breads, freshly baked daily with wholesome ingredients at Delightful Desserts
-                          Bakery.
+                            Artisanal breads, freshly baked daily with wholesome ingredients at Delightful Desserts
+                            Bakery.
                           </span>
                         </div>
                         <div className="position-relative mt-auto">
@@ -361,12 +361,12 @@ function Home() {
                       <div className="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div className="text-center p-4">
                           <div className="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
-                            $11 - $99
+                            ₹135
                           </div>
                           <h4 className="mb-3">Cookies</h4>
                           <span>
-                          Irresistible cookies baked to perfection, a delightful treat from Delightful Desserts
-                          Bakery.
+                            Irresistible cookies baked to perfection, a delightful treat from Delightful Desserts
+                            Bakery.
                           </span>
                         </div>
                         <div className="position-relative mt-auto">
@@ -508,9 +508,7 @@ function Home() {
                 </h3>
                 <h1 className="display-6 mb-4">What Do We Offer For You?</h1>
                 <p className="mb-5">
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                  sed stet lorem sit clita duo justo magna dolore erat amet
+                  At Delightful Deserts, we offer a variety of freshly baked breads, delicious pastries, custom cakes, and savory delights. Our seasonal specials and artisan coffee complement our treats perfectly. Whether you're stopping by for a quick bite or need catering for an event, we’ve got you covered. Come taste the difference with our handcrafted baked goods!
                 </p>
                 <div className="row gy-5 gx-4">
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -521,8 +519,8 @@ function Home() {
                       <h5 className="mb-0">Quality Products</h5>
                     </div>
                     <span>
-                    Indulge in our range of meticulously crafted desserts, made with the finest
-                    ingredients for superior taste and freshness.</span>
+                      Indulge in our range of meticulously crafted desserts, made with the finest
+                      ingredients for superior taste and freshness.</span>
                   </div>
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                     <div className="d-flex align-items-center mb-3">
@@ -532,8 +530,8 @@ function Home() {
                       <h5 className="mb-0">Custom Products</h5>
                     </div>
                     <span>
-                    Personalize your celebrations with our bespoke cakes and desserts, tailored
-                    to your preferences and special occasions.
+                      Personalize your celebrations with our bespoke cakes and desserts, tailored
+                      to your preferences and special occasions.
                     </span>
                   </div>
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
@@ -544,8 +542,8 @@ function Home() {
                       <h5 className="mb-0">Online Order</h5>
                     </div>
                     <span>
-                    Conveniently browse our menu and place orders online, ensuring a seamless
-                    and hassle-free shopping experience from anywhere.
+                      Conveniently browse our menu and place orders online, ensuring a seamless
+                      and hassle-free shopping experience from anywhere.
                     </span>
                   </div>
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
@@ -556,8 +554,8 @@ function Home() {
                       <h5 className="mb-0">Home Delivery</h5>
                     </div>
                     <span>
-                    Enjoy the convenience of doorstep delivery, ensuring your freshly baked treats
-                    arrive promptly and in perfect condition.
+                      Enjoy the convenience of doorstep delivery, ensuring your freshly baked treats
+                      arrive promptly and in perfect condition.
                     </span>
                   </div>
                 </div>
@@ -745,14 +743,13 @@ function Home() {
               <div className="col-lg-4 col-md-6">
                 <h4 className="text-light mb-4">Office Address</h4>
                 <p className="mb-2">
-                  <i className="fa fa-map-marker-alt me-3"></i>123 Street, New
-                  York, USA
+                  <i className="fa fa-map-marker-alt me-3"></i>123 Street, chennai
                 </p>
                 <p className="mb-2">
                   <i className="fa fa-phone-alt me-3"></i>+012 345 67890
                 </p>
                 <p className="mb-2">
-                  <i className="fa fa-envelope me-3"></i>info@example.com
+                  <i className="fa fa-envelope me-3"></i>delightful@deseart.com
                 </p>
                 <div className="d-flex pt-2">
                   <a
@@ -791,19 +788,19 @@ function Home() {
                     </div> */}
               <div className="col-lg-4 col-md-6">
                 <h4 className="text-light mb-4">Quick Links</h4>
-                <a className="btn btn-link" href="./">
+                <a className="btn btn-link" style={{ textDecoration: 'none' }} href="./">
                   Home
                 </a>
-                <a className="btn btn-link" href="#about">
+                <a className="btn btn-link" style={{ textDecoration: 'none' }} href="#about">
                   About Us
                 </a>
-                <a className="btn btn-link" href="#service">
+                <a className="btn btn-link" style={{ textDecoration: 'none' }} href="#service">
                   Our Services
                 </a>
-                <a className="btn btn-link" href="#product">
+                <a className="btn btn-link" style={{ textDecoration: 'none' }} href="#product">
                   Product
                 </a>
-                <a className="btn btn-link" href="#footer">
+                <a className="btn btn-link" style={{ textDecoration: 'none' }} href="#footer">
                   Contact Us
                 </a>
               </div>
