@@ -197,7 +197,7 @@ function Home() {
               <div className="col-lg-6 wow " data-wow-delay="0.5s">
                 <div className="h-100">
                   <h3 className="text-warning text-uppercase mb-2">
-                    // About Us
+                    About Us
                   </h3>
                   <h1 className="display-6 mb-4">
                     Welcome to Delightful Desserts Bakery
@@ -274,7 +274,7 @@ function Home() {
               style={{ maxWidth: "500px" }}
             >
               <h3 className="text-warning text-uppercase mb-2">
-                // Bakery Products
+                Bakery Products
               </h3>
               <h1 className="display-6 mb-4">
                 Explore The Categories Of Our Bakery Products
@@ -504,7 +504,7 @@ function Home() {
             <div className="row g-5">
               <div className="col-lg-6 wow " data-wow-delay="0.1s">
                 <h3 className="text-warning text-uppercase mb-2">
-                  // Our Services
+                  Our Services
                 </h3>
                 <h1 className="display-6 mb-4">What Do We Offer For You?</h1>
                 <p className="mb-5">
@@ -595,7 +595,7 @@ function Home() {
               data-wow-delay="0.1s"
               style={{ maxWidth: "500px" }}
             >
-              <h3 className="text-warning text-uppercase mb-2">// Our Team</h3>
+              <h3 className="text-warning text-uppercase mb-2">Our Team</h3>
               <h1 className="display-6 mb-4">
                 We're Super Professional At Our Skills
               </h1>
@@ -749,7 +749,7 @@ function Home() {
                   <i className="fa fa-phone-alt me-3"></i>+012 345 67890
                 </p>
                 <p className="mb-2">
-                  <i className="fa fa-envelope me-3"></i>delightful@deseart.com
+                  <i className="fa fa-envelope me-3"></i>delightful@desserts.com
                 </p>
                 <div className="d-flex pt-2">
                   <a
