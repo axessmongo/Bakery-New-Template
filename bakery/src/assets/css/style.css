@@ -48,7 +48,10 @@ h6,
     opacity: 1;
 }
 
-
+.logo{
+    width: 100px;
+    height: 70px;
+}
 /*** Button ***/
 .btn {
     font-weight: 500;

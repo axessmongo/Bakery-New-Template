@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import logo from  '../assets/img/logo.png'
 import img1 from "../assets/img/carousel-1.jpg";
 import img2 from "../assets/img/carousel-2.jpg";
 import about1 from "../assets/img/about-1.jpg";
@@ -18,6 +19,7 @@ import team4 from "../assets/img/team-4.jpg";
 import pro1 from "../assets/img/product-1.jpg";
 import pro2 from "../assets/img/product-2.jpg";
 import pro3 from "../assets/img/product-3.jpg";
+
 import Testimonal from "./Testimonal";
 import Footer from "./Footer";
 import Facts from "./Facts";
@@ -31,9 +33,13 @@ function Home() {
           className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0 px-lg-5 wow fadeIn"
           data-wow-delay="0.1s"
         >
-          <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
-            <h1 className="text-warning m-0">Baker</h1>
+         <div className="d-flex">
+         <img src={logo} className="img-fluid logo" alt="" />
+         <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
+            <h1 className="text-warning  m-3">Baker</h1>
+           
           </a>
+         </div>
           <button
             type="button"
             className="navbar-toggler me-4"
