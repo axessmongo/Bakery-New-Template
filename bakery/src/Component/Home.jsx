@@ -93,10 +93,10 @@ function Home() {
                   <i className="fa fa-phone text-warning"></i>
                 </a>
               </div>
-              <div className="ps-3">
+              {/* <div className="ps-3">
                 <small className="text-warning mb-0">Call Us</small>
                 <p className="text-light fs-5 mb-0">+012 345 6789</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>
@@ -260,8 +260,8 @@ function Home() {
                   <div className="d-inline-flex align-items-center text-start">
                     <i className="fa fa-phone-alt fa-4x flex-shrink-0"></i>
                     <div className="ms-4">
-                      <p className="fs-5 fw-bold mb-0">Call Us</p>
-                      <p className="fs-1 fw-bold mb-0">+012 345 6789</p>
+                      {/* <p className="fs-5 fw-bold mb-0">Call Us</p> */}
+                      {/* <p className="fs-1 fw-bold mb-0">+012 345 6789</p> */}
                     </div>
                   </div>
                 </div>
@@ -743,11 +743,11 @@ function Home() {
               <div className="col-lg-4 col-md-6">
                 <h4 className="text-light mb-4">Office Address</h4>
                 <p className="mb-2">
-                  <i className="fa fa-map-marker-alt me-3"></i>123 Street, chennai
+                  <i className="fa fa-map-marker-alt me-3"></i>Chennai
                 </p>
-                <p className="mb-2">
+                {/* <p className="mb-2">
                   <i className="fa fa-phone-alt me-3"></i>+012 345 67890
-                </p>
+                </p> */}
                 <p className="mb-2">
                   <i className="fa fa-envelope me-3"></i>delightful@desserts.com
                 </p>
